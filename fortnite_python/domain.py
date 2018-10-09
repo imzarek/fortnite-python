@@ -13,6 +13,9 @@ class Mode(Enum):
     SOLO = 'p2'
     DUO = 'p10'
     SQUAD = 'p9'
+    SEASON_SOLO = 'curr_p2'
+    SEASON_DUO = 'curr_p10'
+    SEASON_SQUAD = 'curr_p9'
 
 
 class Domain:
